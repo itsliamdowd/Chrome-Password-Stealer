@@ -1,19 +1,9 @@
-#from importlib import import_module
 import os
 import sqlite3
-#import_module('pycryptodomex')
 from Cryptodome.Cipher import AES
 import json
 import base64
-#import_module('pywin32')
 import win32crypt
-import tkinter
-import tkinter.messagebox
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.mime.base import MIMEBase
-from email import encoders
 
 def closeChrome():
     try:
